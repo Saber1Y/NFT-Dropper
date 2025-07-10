@@ -1,0 +1,12 @@
+[submodule "nft-dropper/backend/lib/openzeppelin-contracts"]
+	path = nft-dropper/backend/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "nft-dropper/backend/lib/chainlink-brownie-contracts"]
+	path = nft-dropper/backend/lib/chainlink-brownie-contracts
+	url = https://github.com/smartcontractkit/chainlink-brownie-contracts
+[submodule "nft-dropper/backend/lib/chainlink"]
+	path = nft-dropper/backend/lib/chainlink
+	url = https://github.com/smartcontractkit/chainlink
+[submodule "nft-dropper/backend/lib/chainlink-local"]
+	path = nft-dropper/backend/lib/chainlink-local
+	url = https://github.com/smartcontractkit/chainlink-local
