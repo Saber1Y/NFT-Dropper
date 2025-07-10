@@ -1,0 +1,22 @@
+# Ignore build artifacts and cache
+out/
+cache/
+target/
+
+# Ignore Foundry-specific directories
+broadcast/
+broadcast/*/
+broadcast/*/*/
+broadcast/*/*/*/
+
+# Ignore environment variable files
+.env
+.env.local
+
+# Ignore IDE and editor directories
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore system-specific files
+Thumbs.db
