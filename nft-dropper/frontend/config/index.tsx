@@ -23,7 +23,7 @@ const anvil: Chain = {
   },
 };
 
-export const projectId = "8e67a983dade6ab3c075fe3c0d72e914";
+export const projectId = "b711b400e99fa7f1f1b458b939207a2a";
 
 if (!projectId) {
   throw new Error(

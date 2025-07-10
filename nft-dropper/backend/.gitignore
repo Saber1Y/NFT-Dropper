@@ -2,6 +2,7 @@
 out/
 cache/
 target/
+node_modules/
 
 # Ignore Foundry-specific directories
 broadcast/
