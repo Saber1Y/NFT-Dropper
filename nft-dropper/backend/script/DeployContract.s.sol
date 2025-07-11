@@ -18,7 +18,4 @@ contract MyTokenDeploy is Script {
     }
 }
 
- 
-
-//  dd70638da83e6b76bf26d24bb95165d492d051747248369a211b335f8206e6b1
 

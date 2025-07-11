@@ -1,5 +1,3 @@
-// frontend/app/layout.tsx
-
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import "./globals.css";
@@ -10,17 +8,20 @@ export const metadata: Metadata = {
   description: "Powered by WalletConnect & Reown",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const cookies = headers().get("cookie") || "";
+ 
+  const headerList = await headers();
+
+  const cookieString = headerList.get("cookie") ?? "";
 
   return (
     <html lang="en">
       <body>
-        <ContextProvider cookies={cookies}>{children}</ContextProvider>
+        <ContextProvider cookies={cookieString}>{children}</ContextProvider>
       </body>
     </html>
   );

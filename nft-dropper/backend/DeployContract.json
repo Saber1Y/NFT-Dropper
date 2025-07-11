@@ -1,0 +1,11 @@
+{
+  "network": "Base Sepolia",
+  "chainId": 84532,
+  "rpcUrl": "https://rpc.ankr.com/base_sepolia/2f92347fe2af7003286d71c6034a054d0a1eb293774dd0c9ac91e42bb288c601",
+  "contract": {
+    "RecordRegistry": {
+      "address": "0x464EBe9DF3494074667ea2fAcE94413e8d9c7d3E",
+      "abi": "./abis/MyToken.json"
+    }
+  }
+}
